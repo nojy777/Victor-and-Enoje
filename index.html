@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="challenges.js"></script>
-    <title>Challenges</title>
+    <title>Survey-form</title>
 </head>
 <body>
-    
+   <header> 
+        <h1  id = "title">Mexican food survey</h1>
+        <p id = "description"> Welcome to Mexican Food Survey </p>
+   </header> 
+   <div>
+    <form id="survey-form"> 
+           <label for="name" id="name-label" > Enter your name</label>
+           <input type="text" id = "name" placeholder="Enter your name" required >
+           <label for="email" id="email-label"> Enter your email</label>
+           <input type="email" id = "email" placeholder=" Enter your email"  required>
+           <label for="number" id="number-label"> Enter your age</label>
+           <input type="number"id = "number"  placeholder="Enter your age" min="18" max = "50">
+
+
+           <select id="dropdown" name="Mexican food">
+            <option value="Tacos">Tacos</option>
+            <option value="Fajitas">Fajitas</option>
+            <option value="Enchiladas">Enchiladas</option>
+            <option value="Pozole">Pozole</option>
+            <option value="Tamales">Tamales</option>
+          </select>
+
+    <label for="gender"> select your gender</label>
+          <input type="radio" name ="gender" value = "male"> 
+          <input type="radio" name = "gender" value = "female">
+          
+         <label for="salsa">what is your favorite salsa</label> 
+         <input type="checkbox"  name="salsa" value = "green" >
+         <input type="checkbox"  name="salsa" value = "red" >
+         <input type="checkbox"  name="salsa" value = "both">
+
+         <label for="comments"> additional comments</label>
+         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+         <input type="submit" id = "submit" value="submit">
+
+          
+       </form>
+
+   </div>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
