@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:blueviolet;
+}
+header{
+    text-align: center;
+}
+.form-area{
+    background-color:lightsteelblue;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.label-text{
+    padding: 10px 5px;
+    /* border: 2px white solid; */
+    /* border-radius: 15px; */
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.input-field{
+    background-color: white;
+    padding: 10px 5px;
+    border: 2px blue solid;
+    border-radius: 15px;
+    font-size: 1.1em;
+}
+#comments{
+    margin-bottom: 40px;
+}
+#submit{
+    margin:0 auto;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.options-section{
+    display:inline-block;
+}
